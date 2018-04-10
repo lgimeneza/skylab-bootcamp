@@ -1,4 +1,4 @@
-# Hello, world!
+# Hello, World!
 
 ## Heading 2
 
@@ -18,13 +18,13 @@ Content...
 
 ![Hello World!](images/helloworld.png)
 
-![Hello 2](https://helloworld.raspberrypi.org/assets/helloworld-1b980fe2c0952d3d05a41c76e48dfd532bfe71d83d7d133d8d7fb1d1d08c61ac.png)
+![Hello World](https://helloworld.raspberrypi.org/assets/helloworld-1b980fe2c0952d3d05a41c76e48dfd532bfe71d83d7d133d8d7fb1d1d08c61ac.png)
 
-[hello, world! wikipedia](https://es.wikipedia.org/wiki/Hola_mundo)
+[Hello, World! wikipedia](https://en.wikipedia.org/wiki/"Hello,_World!"_program)
 
-[Lorem Ipsum][lorem-ipsum] es simplemente el texto de relleno de las imprentas y archivos de texto. [Lorem Ipsum][lorem-ipsum] ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de [Lorem Ipsum][lorem-ipsum], y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de [Lorem Ipsum][lorem-ipsum].
+[Lorem Ipsum][lorem-ipsum] is simply dummy text of the printing and typesetting industry. [Lorem Ipsum][lorem-ipsum] has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing [Lorem Ipsum][lorem-ipsum] passages, and more recently with desktop publishing software like Aldus PageMaker including versions of [Lorem Ipsum][lorem-ipsum].
 
-[lorem-ipsum]:https://es.wikipedia.org/wiki/Lorem_ipsum
+[lorem-ipsum]:https://en.wikipedia.org/wiki/Lorem_ipsum
 
 | Name | Surname |
 | ---- | ------- |
@@ -32,25 +32,21 @@ Content...
 | Donqui | Jote |
 
 ```sh
-
 $ ls -a folder
-
 ```
 
 ```js
-
 console.log('Hello, World!');
-
 ```
 
 ```css
-
-h1 {color:red;}
-
+h1 { color: red; }
 ```
 
 ```html
-
 <script src="scripts/main.js">
-
 ```
+
+
+
+
