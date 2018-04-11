@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+}
+
+.site_title{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.main_title{
+    padding-left: 30px;
+    color: rgb(82, 81, 81);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.site_logo{
+    width: 200px;
+    vertical-align: bottom;
+}
+
+.section_header{
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.site_footer{
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(54, 54, 54, 0.7);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copy-left { 
+    display: inline-block; 
+    text-align: right; 
+    margin: 0px; 
+    -moz-transform: scaleX(-1); 
+    -o-transform: scaleX(-1); 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1); 
+    filter: FlipH; 
+    -ms-filter: “FlipH”; 
+}
+
+
+.container{
+    margin: 20px;
+    background-color: rgb(32, 161, 247);
+    height: 589px;
+    text-align: center;
+}
+
+.list-item{
+	list-style: none;
+	background-color: rgb(18, 92, 230);
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	top: calc(50% - 49px);
+    left: calc(50% - 19px);
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+    padding: 3px;
+}
+
+#skylabRef{
+    color: white;
+}
+
+#start{
+    position: absolute;
+    top: calc(50% - 180px);
+    left: calc(50% - 30px);
+    font-size: 20px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#letter{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: calc(50% - 155px);
+    left: calc(50% - 40px);
+    font-size: 60px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#description{
+    width: 300px;
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 150px);
+    font-size: 20px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#answer{
+    background: #f6f6f6;
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 20px;
+    width: 110px;
+    padding: 10px;
+    margin: 10px;
+
+    margin-top: 470px;
+    width: 420px;
+    height: 30px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: none;
+    color: rgb(18, 92, 230);
+}
+
+#game{
+    display: none;
+}
+
+#countdown{
+    position: absolute;
+    top: calc(50% - 230px);
+    left: calc(50% - 220px);
+    font-size: 20px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+#points{
+    position: absolute;
+    top: calc(50% - 230px);
+    left: calc(50% + 140px);
+    font-size: 20px;
+    color: rgb(0, 203, 122);
+    font-family: 'Exo', sans-serif;
+    text-align: right;
+    width: 80px;
+}
+
+#btnPasapalabra{
+    background: rgb(246, 154, 56);
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 20px;
+    width: 215px;
+    padding: 10px;
+    margin: 0px;
+    margin-right: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+#btnPasapalabra:hover{
+    background: rgb(253, 169, 79);
+}
+
+#btnConfirmar{
+    background: rgb(0, 203, 122);
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 20px;
+    width: 215px;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 4px;
+    color: white;
+    border-radius: 5px;
+}
+
+#btnConfirmar:hover{
+    background: rgb(7, 224, 137);
+}
+
+#btnPlayGame{
+    background: rgb(0, 203, 122);
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 20px;
+    width: 335px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 201px;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#btnPlayGame:hover{
+    background: rgb(7, 224, 137);
+}
+
+
+#btnPlayAgain{
+    background: rgb(0, 203, 122);
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 20px;
+    width: 215px;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 4px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+#btnPlayAgain:hover{
+    background: rgb(7, 224, 137);
+}
+
+
+#game_title{
+    padding-top: 140px;
+    font-size: 60px;
+    color: rgb(246, 154, 56);
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#total{
+    color: white;
+    font-family: 'Exo', sans-serif;
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+    background-color: rgb(18, 92, 230);
+    margin-top: 250px;
+    font-size: 20px;
+}
+
+#correct{
+    color: rgb(0, 203, 122);
+    font-weight: bold;
+}
+
+#error,#full{
+    color: rgb(236, 74, 65);
+    font-weight: bold;
+}
+
+#lblScore{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+#totalScore{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+#score{
+    display: none;
+    background-color: rgb(32, 161, 247);
+    background-image: url(../conffeti.png);
+}
+
+#avatar_think{
+    position: absolute;
+    width: 100px;
+    top: 460px;
+    left: calc(50% + 130px);
+}
+
+#avatar_play{
+    position: absolute;
+    width: 200px;
+    top: 310px;
+    left: calc(50% - 100px);
+}
+
+#avatar_view{
+    position: absolute;
+    width: 200px;
+    top: 157px;
+    left: calc(50% - 100px);
+}

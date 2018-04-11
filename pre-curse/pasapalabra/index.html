@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pasapalabra Skylab</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Slackey" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="site_title">
+            <a id="skylabRef" href="http://www.skylabcoders.com/">
+                <img class="site_logo" src="http://www.skylabcoders.com/images/403/default.png">
+            </a>
+            <span class="main_title">PRE-COURSE PROJECT</span>
+        </h1>
+    </header>
+
+    <section>
+        <header class="section_header">
+            <p>Pasapalabra HTML + CSS + Javascript</p>
+        </header>
+
+        <div id="welcome" class="container">
+            <p id="game_title">Pasapalabra</p>
+            <img id="avatar_play" src="media/avatar_play.png" alt="">
+            <button id="btnPlayGame" onclick="newGame()">JUGAR</button>
+        </div>
+
+        <div id="game" class="container">
+
+            <p id="countdown">00:00</p>
+            <p id="points">0</p>
+
+            <ul id="list">
+                <li class='list-item'>A</li>
+                <li class='list-item'>B</li>
+                <li class='list-item'>C</li>
+                <li class='list-item'>D</li>
+                <li class='list-item'>E</li>
+                <li class='list-item'>F</li>
+                <li class='list-item'>G</li>
+                <li class='list-item'>H</li>
+                <li class='list-item'>I</li>
+                <li class='list-item'>J</li>
+                <li class='list-item'>K</li>
+                <li class='list-item'>L</li>
+                <li class='list-item'>M</li>
+                <li class='list-item'>N</li>
+                <li class='list-item'>Ñ</li>
+                <li class='list-item'>O</li>
+                <li class='list-item'>P</li>
+                <li class='list-item'>Q</li>
+                <li class='list-item'>R</li>
+                <li class='list-item'>S</li>
+                <li class='list-item'>T</li>
+                <li class='list-item'>U</li>
+                <li class='list-item'>V</li>
+                <li class='list-item'>W</li>
+                <li class='list-item'>X</li>
+                <li class='list-item'>Y</li>
+                <li class='list-item'>Z</li>
+            </ul>
+        
+            <p id="start">Con la</p>
+            <p id="letter"></p>
+            <p id="description" class="description"></p>
+            <img id="avatar_think" src="media/avatar_think.png" alt="">
+            <div>
+                <input id="answer" type="text"
+                       placeholder="Tu respuesta..." onfocus="this.placeholder = ''"
+                       onblur="this.placeholder = 'Tu respuesta...'"
+                       onkeypress="return onPress_ENTER(event)" >
+            </div>
+            <button id="btnPasapalabra" onclick="btnPasapalabraClick()">PASAPALABRA</button>
+            <button id="btnConfirmar" onclick="btnConfirmarClick()">CONFIRMAR</button>
+        </div>
+
+        <div id="score" class="container">
+            <img id="avatar_view" src="media/avatar_view.png" alt="">
+            <div id="total">
+                <p id="lblCorrect">Respuestas correctas: <span id="correct">0</span></p>
+                <p id="lblError">Respuestas incorrectas: <span id="error">0</span></p>
+                <p id="lblFull">Rosco completo: <span id="full">No</span></p>
+                <p id="lblScore">Tu puntuación</p>
+                <p id="totalScore">0</p>
+                <button id="btnPlayAgain" onclick="btnPlayAgainClick()">JUGAR OTRA VEZ</button>
+            </div>
+        </div>
+
+    </section>
+    <footer class="site_footer">
+        <div class="name">
+            <p><span class="copy-left">©</span> 2018 lgimenez</p>
+        </div>
+    </footer>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
