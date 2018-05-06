@@ -38,7 +38,6 @@ class App extends Component {
     this.setState({query: e.target.value})
   }
 
-
   render() {
     return (
       <div>
