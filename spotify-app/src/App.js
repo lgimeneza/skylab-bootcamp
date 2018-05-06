@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logic from './logic/index'
+import token from './private/index' // Remove this line or replace whith your own file
 import './App.css';
 import AlbumInfo from './components/AlbumInfo'
+
+// https://beta.developer.spotify.com/documentation/web-api/reference/
 
 class App extends Component {
 
@@ -14,7 +17,8 @@ class App extends Component {
   _handlerSearchAlbums = (e) => {
     e.preventDefault()
 
-    logic.token = 'your token'
+    // Replace this line whith your token. Do something like logic.token = 'your token'
+    logic.token = token.getToken()
 
     logic.searchAlbums(this.state.query)
     .then(albums => {
